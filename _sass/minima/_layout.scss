@@ -25,6 +25,8 @@
 .site-nav {
   text-align: center;
   line-height: 56px;
+  margin-top: 30px;
+  margin-bottom: 80px;
 
   .menu-icon {
     display: none;
@@ -36,7 +38,12 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 115px;
+    }
+    h4{
+      font-size: 20px;
+      text-transform: uppercase;
+      display: inline;
     }
   }
 

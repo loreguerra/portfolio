@@ -12,10 +12,10 @@
       </span>
 
       <div class="trigger">
-        <a class="page-link" href="{{ "/" | relative_url}}">Work</a>
+        <a class="page-link" href="{{ "/" | relative_url}}"><h4>Work</h4></a>
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          <a class="page-link" href="{{ page.url | relative_url }}"><h4>{{ page.title | escape }}</h4></a>
           {% endif %}
         {% endfor %}
       </div>
