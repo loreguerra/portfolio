@@ -9,9 +9,9 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-          <p>{{ post.categories }}</p>
+          <p class="skill-list">{{ post.categories }}</p>
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {{ post.title | escape }}
         </h2>
         <p>{{ post.excerpt }}</p>
         <p>{{ post.skills }}</p>
