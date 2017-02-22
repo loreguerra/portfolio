@@ -109,8 +109,10 @@
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: $spacing-unit / 2;
+  text-transform: uppercase;
+  color: $grey-color;
 }
 
 .contact-list,
