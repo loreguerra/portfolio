@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-02-14 12:46:27 -0800
-image: http://cafemode.com/images/lorena_new_profile.jpg
+image: https://www.w3schools.com/css/trolltunga.jpg
 image-alt: me
 categories: jekyll update
 skills: Design, Illustration, HTML/CSS
