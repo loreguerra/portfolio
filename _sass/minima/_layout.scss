@@ -201,10 +201,12 @@
     text-transform: uppercase;
     color: $grey-color-dark;
     font-weight:700;
+    font-size: 20px;
   }
   .skills{
     @extend .categories;
     text-transform: none;
+    font-size: $base-font-size;
   }
 
   > li {
