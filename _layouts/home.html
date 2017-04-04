@@ -3,26 +3,34 @@ layout: default
 ---
 
 <div class="home">
+    <div class="container">
+      {{ content }}
 
-  {{ content }}
+
+      {% for post in site.posts %}
 
 
-  {% for post in site.posts %}
+      <div>
 
-  <div> <p>{{ post.image }}</p></div>
-  <ul class="post-list">
+        <img src="{{ post.image }}" class="img-responsive"/>
 
-      <li>
-          <p class="categories">{{ post.categories }}</p>
-        <h2>
-        {{ post.title | escape }}
-        </h2>
-        <p>{{ post.description }}</p>
-        <p class="skills">{{ post.skills }}</p>
+      </div>
 
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- button will show post.content -->
+      <ul class="post-list">
+
+          <li>
+              <p class="categories">{{ post.categories }}</p>
+            <h2>
+            {{ post.title | escape }}
+            </h2>
+            <p>{{ post.description }}</p>
+            <p class="skills">{{ post.skills }}</p>
+
+          </li>
+        {% endfor %}
+      </ul>
+      <!-- button will show post.content -->
+
+    </div>
 
 </div>
