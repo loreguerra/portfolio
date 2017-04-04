@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-02-14 12:46:27 -0800
-image: https://www.w3schools.com/css/trolltunga.jpg
+image: https://www.w3schools.com/css/img_lights.jpg
 alt: me
 categories: jekyll update
 skills: Design, Illustration, HTML/CSS
