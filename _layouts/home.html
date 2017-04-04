@@ -10,31 +10,38 @@ layout: default
       {% for post in site.posts %}
 
 
-  <div class="row">
+          <div class="row">
 
-     <div class="col-md-6">
+             <div class="col-md-6">
 
-        <img src="{{ post.image }}" class="img-responsive" alt="{{ post.image-alt }}"/>
+                <img src="{{ post.image }}" class="img-responsive" alt="{{ post.alt }}"/>
 
-      </div>
+              </div>
 
-      <div class="post-list col-md-5">
-
-
-              <p class="categories">{{ post.categories }}</p>
-            <h2>
-            {{ post.title | escape }}
-            </h2>
-            <p>{{ post.description }}</p>
-            <p class="skills">{{ post.skills }}</p>
+                    <div class="post-list col-md-4">
 
 
-      </div>
+                            <p class="categories">{{ post.categories }}</p>
 
-    </div>
-      <!-- button will show post.content -->
+                                <h2>
+                                {{ post.title | escape }}
+                                </h2>
 
-      {% endfor %}
+                                <p>{{ post.description }}</p>
+
+                                <p class="skills">{{ post.skills }}</p>
+
+                    </div>
+
+            </div>
+
+                  <div class="row">
+
+                    <!-- button will show post.content -->
+
+                  </div>
+
+              {% endfor %}
 
 
     </div>
