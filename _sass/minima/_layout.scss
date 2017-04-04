@@ -197,10 +197,14 @@
     text-transform: uppercase;
     color: $grey-color;
   }
-  .skill-list{
+  .categories{
     text-transform: uppercase;
     color: $grey-color-dark;
     font-weight:700;
+  }
+  .skills{
+    @extend .categories;
+    text-transform: none;
   }
 
   > li {
