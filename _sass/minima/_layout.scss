@@ -204,6 +204,8 @@
     color: $grey-color-dark;
     font-weight:700;
     font-size: $base-font-size + 4;
+    margin-bottom:0;
+    padding-bottom:0;
   }
   .skills{
     @extend .categories;
