@@ -212,7 +212,15 @@
     text-transform: none;
     font-size: $base-font-size;
   }
-
+  .lines-underline{
+    font-size: 10px;
+    letter-spacing: 5px;
+    overflow:hidden;
+    padding-right: 30px;
+    p{
+      color: $grey-color-light;
+    }
+  }
   > li {
     margin-bottom: $spacing-unit;
   }
