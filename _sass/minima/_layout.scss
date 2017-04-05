@@ -213,11 +213,12 @@
     font-size: $base-font-size;
   }
   .lines-underline{
-    font-size: 10px;
-    letter-spacing: 5px;
     overflow:hidden;
+    margin-bottom: 20px;
     p{
       color: $grey-color-light;
+      font-size: 10px;
+      letter-spacing: 5px;
     }
   }
   > li {
