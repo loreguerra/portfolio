@@ -197,6 +197,9 @@
   .btn{
       background-color: $brand-color;
       margin-top: 20px;
+      &:hover{
+        background-color: darken($brand-color, 20%);  
+      }
   }
   h2{
     font-size: 24px;
