@@ -32,9 +32,11 @@ layout: default
 
                                 <p>{{ post.description }}</p>
 
-                                <button class="btn">VIEW MORE</button>
 
 
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 <button class="btn">VIEW MORE</button>
+                             </a>
 
                     </div>
 
@@ -44,6 +46,18 @@ layout: default
 
 
                     <!-- button will show post.content -->
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                        {{post.content}}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
                   </div>
 
